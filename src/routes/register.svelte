@@ -41,7 +41,7 @@
         <br />
         <br />
         <div class="stamp">
-          <a class="logo" href="https://communityfolder.com">
+          <a class="logo" href="/">
             /{words[0]}/register/
           </a>
         </div>
