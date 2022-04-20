@@ -52,7 +52,7 @@
         <br />
         <div class="stamp">
           <a class="logo" href="/">
-            /social_groups/{words[0]}/
+            /community_folder/{words[0]}/
           </a>
         </div>
         <br />

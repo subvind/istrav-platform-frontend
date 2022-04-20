@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>Register - Social Groups - /{words[0]}/</title>
+  <title>Register - /community_folder/{words[0]}/</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 </svelte:head>
@@ -31,7 +31,7 @@
       </div>
       <div class="title">
         <a href="/">
-          /social_groups/{words[0]}/
+          /community_folder/{words[0]}/
         </a>
       </div>
       <div class="box">
