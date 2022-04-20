@@ -125,10 +125,6 @@
     border: 5px solid #222;
     margin-right: 1em;
   }
-
-  .pad {
-    flex: 1;
-  }
   
   .stamp {
     text-align: center;
