@@ -27,9 +27,9 @@
   <div class="community">
     <div class="folder">
       <div class="navigation">
-        <a href="/login" class="btn btn-small teal lighten-2">LOGIN</a>
-        <a href="/register" class="btn btn-small teal lighten-2">REGISTER</a>
-        <a href="https://{words[1] + '.' + words[2]}" class="btn btn-small teal lighten-2">ROOT</a>
+        <a href="/login" class="btn btn-small blue lighten-2">LOGIN</a>
+        <a href="/register" class="btn btn-small blue lighten-2">REGISTER</a>
+        <a href="https://{words[1] + '.' + words[2]}" class="btn btn-small blue lighten-2">ROOT</a>
       </div>
       <div class="title">
         <a href="/">
