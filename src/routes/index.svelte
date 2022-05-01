@@ -20,7 +20,7 @@
 
 
 <svelte:head>
-  <title>Welcome - /community_folder/{words[0]}/</title>
+  <title>{words[0]}: /community_folder/</title>
 </svelte:head>
 
 <div class="container">

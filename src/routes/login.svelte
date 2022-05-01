@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>Login - /community_folder/{words[0]}/</title>
+  <title>{words[0]}: /community_folder/login</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 </svelte:head>
