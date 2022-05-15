@@ -3,19 +3,17 @@
 
   export let subdomain = ''
 
-  let loading = true
-  let socialGroupSlug = ''
+  let hostname = 'communityfolder.com'
   let words = ["myfolder", "communityfolder", "com"]
   
   onMount(() => {
-    let hostname = window.location.hostname
+    hostname = window.location.hostname
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      hostname = 'communityfolder.com'
       words = ["myfolder", "communityfolder", "com"]
     } else {
       words = hostname.split('.')
-
     }
-    socialGroupSlug = words.slice((words.length - 3), words.length).join('.')
   })
 </script>
 
@@ -58,7 +56,7 @@
               </li>
             </ul>
             <div class="right" style="margin: 0 1em;">
-              <a class="btn grey lighten-2 black-text" href="/create-social-group">SOCIAL GROUP</a>
+              <a class="btn grey lighten-2 black-text" href={`//${hostname}/create-social-group`}><i class="material-icons left" style="line-height: 37px;">add</i>SOCIAL GROUP</a>
             </div>
           <!-- {/if} -->
         </nav>

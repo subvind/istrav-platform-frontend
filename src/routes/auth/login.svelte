@@ -1,5 +1,5 @@
 <script>
-  import Login from "../components/auth/Login.svelte";
+  import Login from "../../components/auth/Login.svelte";
   import { onMount } from 'svelte';
 
   let words = ["myfolder", "communityfolder", "com"]
