@@ -2,8 +2,8 @@
 <script>
   import { onMount } from 'svelte';
 
-  import Navigation from '../components/Navigation.svelte'
-  import NavigationAuth from '../components/NavigationAuth.svelte'
+  import Navigation from '../../components/Navigation.svelte'
+  import NavigationAuth from '../../components/NavigationAuth.svelte'
 
   let words = ["myfolder", "communityfolder", "com"]
   
@@ -18,9 +18,9 @@
 </script>
 
 <svelte:head>
-  <title>/v/{words[0]}/ - Activity Feed</title>
+  <title>/v/{words[0]}/ - Storefronts</title>
 </svelte:head>
 
 <Navigation />
-<NavigationAuth active="activity-feed" />
+<NavigationAuth active="storefronts" />
 
