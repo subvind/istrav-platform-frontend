@@ -29,7 +29,7 @@
   <div class="col m3" style="background: #222;">
     <nav class="black lighten-2">
       <div class="nav-wrapper">
-        <a href="/" class="brand-logo center">/v/{words[0]}/</a>
+        <a href="/" class="brand-logo center subdomain">/v/{words[0]}/</a>
       </div>
     </nav>
     <!-- <Navigation app={app} active={active} /> -->
@@ -66,6 +66,9 @@
 <div style="height: 4.5em;"></div>
 
 <style>
+  .subdomain {
+    width: 100%;
+  }
   .brand-logo i {
     margin: 0;
   }
