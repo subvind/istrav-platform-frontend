@@ -42,6 +42,9 @@
 </footer>
 
 <style>
+  footer {
+    box-shadow: 0 0 5em #aaa;
+  }
   footer ul li a {
     color: #111;
   }

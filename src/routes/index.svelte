@@ -5,7 +5,8 @@
   import Navigation from '../components/Navigation.svelte'
   import NavigationAuth from '../components/NavigationAuth.svelte'
   import Breadcrumb from '../components/Breadcrumb.svelte';
-  import Search from '../components/Search.svelte';
+  import Footer from '../components/Footer.svelte'
+  import AllActivity from '../components/feed/AllActivity.svelte';
 
   let words = ["myfolder", "communityfolder", "com"]
   let breadcrumbs = [
@@ -37,22 +38,48 @@
 
 <NavigationAuth active="activity-feed" />
 
-<div class="container">
-  <div class="row">
+<br />
+<br />
+
+<div class="wrapper container">
+  <div class="row zero-margin">
     <div class="col s8">
       <Breadcrumb items={breadcrumbs} />
     </div>
     <div class="col s4">
-      <!-- <Search /> -->
+      <div class="right" style="display: flex; margin: 1.5em 0;">
+        <i class="material-icons" style="font-size: 1.2em;">refresh</i> <span style="margin-left: 0.5em;">This stream auto-updates.</span> 
+      </div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col s8">
+  <AllActivity />
 
+  <div class="row zero-margin">
+    <div class="col s8">
+      <!-- <Welcome /> -->
     </div>
     <div class="col s4">
-      
+      <!-- <LatestBlogEntries /> -->
+    </div>
+  </div>
+  <div class="row zero-margin">
+    <div class="col s12">
+      <Breadcrumb items={breadcrumbs} />
     </div>
   </div>
 </div>
+
+<br />
+<br />
+
+<Footer />
+
+<style>
+  .wrapper {
+    min-height: calc(-18em + 100%);
+  }
+  .zero-margin {
+    margin: 0;
+  }
+</style>
