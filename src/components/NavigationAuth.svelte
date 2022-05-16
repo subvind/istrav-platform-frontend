@@ -38,10 +38,12 @@
     </ul>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       {#if authenticated}
-        <li><a href={`/accounts/${token.id}`}>{token.email}</a></li>
+        <li><a href={`/search`}><i class="material-icons">search</i></a></li>
+        <li><a href={`/chats`}><i class="material-icons">question_answer</i></a></li>
+        <li><a href={`/notifications`}><i class="material-icons">notifications</i></a></li>
+        <li><a href={`/members/${token.id}`}><i class="material-icons">face</i></a></li>
       {:else}
-        <li><a href="/auth/login">Login</a></li>
-        <li><a href="/auth/register">Register</a></li>
+        <li><a href="/auth/login"><i class="material-icons">power_settings_new</i></a></li>
       {/if}
     </ul>
   </div>

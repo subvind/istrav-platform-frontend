@@ -5,9 +5,10 @@
   import Navigation from '../../components/Navigation.svelte'
   import NavigationAuth from '../../components/NavigationAuth.svelte'
   import Breadcrumb from '../../components/Breadcrumb.svelte';
-  import Search from '../../components/Search.svelte';
+  import Controls from '../../components/Controls.svelte';
   import Welcome from '../../components/forums/Welcome.svelte';
   import LatestBlogEntries from '../../components/forums/LatestBlogEntries.svelte';
+  import Footer from '../../components/Footer.svelte';
 
   let words = ["myfolder", "communityfolder", "com"]
   let breadcrumbs = [
@@ -42,13 +43,13 @@
 <br />
 <br />
 
-<div class="container">
+<div class="wrapper container">
   <div class="row zero-margin">
     <div class="col s8">
       <Breadcrumb items={breadcrumbs} />
     </div>
     <div class="col s4">
-      <Search />
+      <Controls />
     </div>
   </div>
 
@@ -60,9 +61,22 @@
       <LatestBlogEntries />
     </div>
   </div>
+  <div class="row zero-margin">
+    <div class="col s12">
+      <Breadcrumb items={breadcrumbs} />
+    </div>
+  </div>
 </div>
 
+<br />
+<br />
+
+<Footer />
+
 <style>
+  .wrapper {
+    min-height: calc(-18em + 100%);
+  }
   .zero-margin {
     margin: 0;
   }

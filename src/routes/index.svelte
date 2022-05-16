@@ -43,7 +43,7 @@
       <Breadcrumb items={breadcrumbs} />
     </div>
     <div class="col s4">
-      <Search />
+      <!-- <Search /> -->
     </div>
   </div>
 
