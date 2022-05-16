@@ -28,7 +28,7 @@
     <div class="container">
       <div class="nav-wrapper">
         <ul class="">
-          <li class=""><a href="https://communityfolder.com" target="_blank">CommunityFolder © {new Date().getFullYear()}.</a></li>
+          <li class=""><a href="https://communityfolder.com" target="_blank">/community_folder/ © {new Date().getFullYear()}.</a></li>
           <li class=""><a href="https://istrav.com" target="_blank">Made with ♥ by istrav.com.</a></li>
         </ul>
         <ul class="right">
