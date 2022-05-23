@@ -40,19 +40,19 @@
           <!-- {#if app === 'my-account'} -->
             <ul>
               <li>
-                <a href="//communityfolder.com/marketing/solutions">Solutions</a>
+                <a href="//istrav.com/production">Production</a>
               </li>
               <li>
-                <a href="//communityfolder.com/marketing/product">Product</a>
+                <a href="//istrav.com/solutions">Solutions</a>
               </li>
               <li>
-                <a href="//communityfolder.com/marketing/pricing">Pricing</a>
+                <a href="//istrav.com/apps">Apps</a>
               </li>
               <li>
-                <a href="//communityfolder.com/marketing/about">About</a>
+                <a href="//istrav.com/platforms">Platforms</a>
               </li>
-              <li class="active">
-                <a href="//www.communityfolder.com">Community</a>
+              <li>
+                <a href="//istrav.com/projects">Projects</a>
               </li>
             </ul>
             <div class="right" style="margin: 0 1em;">
