@@ -14,6 +14,7 @@
     } else {
       words = hostname.split('.')
       hostname = [words.reverse()[1], words[0]].join('.')
+      words.reverse() //  change back to in order for display
     }
   })
 </script>
