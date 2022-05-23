@@ -75,7 +75,7 @@
 
 <style>
   .wrapper {
-    min-height: calc(-18em + 100%);
+    min-height: 100vh;
   }
   .zero-margin {
     margin: 0;
