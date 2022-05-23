@@ -13,6 +13,7 @@
       words = ["myfolder", "communityfolder", "com"]
     } else {
       words = hostname.split('.')
+      hostname = [words.reverse()[1], words.reverse()[0]].join('.')
     }
   })
 </script>
