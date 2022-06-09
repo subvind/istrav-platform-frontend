@@ -1,6 +1,6 @@
 /community_folder/
 =======
-Allows people to sign into a social groups for members area.
+Allows people to sign into a members area only network.
 
 https://<social-group>.communityfolder.com
 

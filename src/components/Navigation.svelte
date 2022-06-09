@@ -58,7 +58,7 @@
               </li>
             </ul>
             <div class="right" style="margin: 0 1em;">
-              <a class="btn grey lighten-2 black-text" href={`//${hostname}/create-social-group`}><i class="material-icons left" style="line-height: 37px;">add</i>SOCIAL GROUP</a>
+              <a class="btn grey lighten-2 black-text" href={`//${hostname}/create-network`}><i class="material-icons left" style="line-height: 37px;">add</i>NETWORK</a>
             </div>
           <!-- {/if} -->
         </nav>
