@@ -22,7 +22,7 @@
       // let tld = words.slice((words.length - 2), words.length).join('.')
   
       // configure server
-      backend.set(`https://communityfolder.herokuapp.com`)
+      backend.set(`https://istrav.istrav.dev`)
     }
     
     // log

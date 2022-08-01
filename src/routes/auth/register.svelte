@@ -2,12 +2,12 @@
   import Register from "../../components/auth/Register.svelte";
   import { onMount } from 'svelte';
 
-  let words = ["myfolder", "communityfolder", "com"]
+  let words = ["myfolder", "istrav", "net"]
   
   onMount(() => {
     let hostname = window.location.hostname
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
-      words = ["myfolder", "communityfolder", "com"]
+      words = ["myfolder", "istrav", "net"]
     } else {
       words = hostname.split('.')
 
@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>{words[0]}: /community_folder/register</title>
+  <title>{words[0]}: /istrav/register</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 </svelte:head>
@@ -32,7 +32,7 @@
       </div>
       <div class="title">
         <a href="/">
-          /community_folder/{words[0]}/
+          /istrav/{words[0]}/
         </a>
       </div>
       <div class="box">
@@ -55,7 +55,7 @@
         <br />
       </div>
     </div>
-    <footer>© {new Date().getFullYear()} <a href="https://communityfolder.com">communityfolder.com</a>. All rights reserved.</footer>
+    <footer>© {new Date().getFullYear()} <a href="https://istrav.net">istrav.net</a>. All rights reserved.</footer>
   </div>
 </div>
 

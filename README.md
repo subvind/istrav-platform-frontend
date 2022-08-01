@@ -1,20 +1,8 @@
-/community_folder/
+/istrav/
 =======
 Allows people to sign into a members area only network.
 
-https://<social-group>.communityfolder.com
-
-main:
-- https://github.com/trabur/communityfolder.com
-
-source code:
-- https://github.com/trabur/communityfolder-backend
-- https://github.com/trabur/communityfolder-frontend
-- https://github.com/trabur/communityfolder-mobile
-
-containers:
-- https://hub.docker.com/r/istrav/communityfolder-backend
-- https://hub.docker.com/r/istrav/communityfolder-frontend
+https://<social-group>.istrav.net
 
 ### web-station
 ```bash

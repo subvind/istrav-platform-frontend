@@ -10,7 +10,7 @@
   import LatestBlogEntries from '../../components/forums/LatestBlogEntries.svelte';
   import Footer from '../../components/Footer.svelte';
 
-  let words = ["myfolder", "communityfolder", "com"]
+  let words = ["myfolder", "istrav", "net"]
   let breadcrumbs = [
     {
       label: 'Home',
@@ -25,7 +25,7 @@
   onMount(() => {
     let hostname = window.location.hostname
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
-      words = ["myfolder", "communityfolder", "com"]
+      words = ["myfolder", "istrav", "net"]
     } else {
       words = hostname.split('.')
     }

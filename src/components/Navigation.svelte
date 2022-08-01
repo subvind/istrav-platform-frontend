@@ -3,14 +3,14 @@
 
   export let subdomain = ''
 
-  let hostname = 'communityfolder.com'
-  let words = ["myfolder", "communityfolder", "com"]
+  let hostname = 'istrav.net'
+  let words = ["myfolder", "istrav", "net"]
   
   onMount(() => {
     hostname = window.location.hostname
     if (hostname === 'localhost' || hostname === '127.0.0.1') {
-      hostname = 'communityfolder.com'
-      words = ["myfolder", "communityfolder", "com"]
+      hostname = 'istrav.net'
+      words = ["myfolder", "istrav", "net"]
     } else {
       words = hostname.split('.')
       hostname = [words.reverse()[1], words[0]].join('.')
@@ -23,7 +23,7 @@
   <div class="col m1" style="background: #111; text-align: center;">
     <nav class="green lighten-2">
       <div class="nav-wrapper">
-        <a href="//communityfolder.com" class="brand-logo center"><i class="material-icons">folder_special</i></a>
+        <a href="//istrav.net" class="brand-logo center"><i class="material-icons">folder_special</i></a>
       </div>
     </nav>
     <!-- <MainNavigation app={app} /> -->
