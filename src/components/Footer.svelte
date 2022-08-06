@@ -13,7 +13,7 @@
     <div class="container">
       <div class="nav-wrapper">
         <ul class="">
-          <li class=""><a href="https://istrav.net" target="_blank">{host} © {new Date().getFullYear()}.</a></li>
+          <li class=""><a href="/" target="_blank">{host} © {new Date().getFullYear()}.</a></li>
           <li class=""><a href="https://istrav.com" target="_blank">Made with &hearts; by isTrav.</a></li>
         </ul>
         <ul class="right">
